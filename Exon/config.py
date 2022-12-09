@@ -45,9 +45,9 @@ def get_user_list(config, key):
 class Config(object):
     LOGGER = True
     # ᴀᴅᴅ ʏᴏᴜʀ ᴠᴇʀs  (ᴍᴀɪɴ ᴠᴇʀs)
-    API_ID = int(getenv("API_ID", ""))
-    API_HASH = getenv("API_HASH")
-    EVENT_LOGS = int(getenv("EVENT_LOGS", ""))
+    API_ID = int(getenv("API_ID", "15599295"))
+    API_HASH = getenv("API_HASH", "4ce42998f7df4a64934294dadca28ae0")
+    EVENT_LOGS = int(getenv("EVENT_LOGS", "-1001621682412"))
     DATABASE_URI = getenv(
         "DATABASE_URI",
         "postgres://ftmhhlpp:vXFSn6lNyTwI_OOTbGSBbdsQI9hABC1f@ella.db.elephantsql.com/ftmhhlpp",
@@ -55,12 +55,12 @@ class Config(object):
     REDIS_URL = "redis://default:imP6xyfvlFsVpzFbciK3dIx9Vde05pav@redis-17127.c239.us-east-1-2.ec2.cloud.redislabs.com:17127/default"  # redis.os
     MONGO_DB_URL = getenv(
         "MONGO_DB_URL",
-        "mongodb+srv://EXONTESTMONGO:EXONTESTMONGO@cluster0.bviw7ic.mongodb.net/?retryWrites=true&w=majority",
+        "mongodb+srv://its_star_boi:7234049299@cluster0.8twjh9e.mongodb.net/?retryWrites=true&w=majority",
     )
-    TOKEN = getenv("TOKEN", None)
-    OWNER_USERNAME = getenv("OWNER_USERNAME", "Abishnoi1M")
-    OWNER_ID = list(map(int, getenv("OWNER_ID", " ").split()))
-    SUPPORT_CHAT = getenv("SUPPORT_CHAT", "AbishnoiMF")
+    TOKEN = getenv("TOKEN", "5889054634:AAGu_lt5U8XmHwZTvVutBhQ75B_16N2q5cY")
+    OWNER_USERNAME = getenv("OWNER_USERNAME", "its_star_boi")
+    OWNER_ID = list(map(int, getenv("OWNER_ID", "5463205082").split()))
+    SUPPORT_CHAT = getenv("SUPPORT_CHAT", "best_FriendsFor_Ever")
 
     # ɴᴏᴛ ɪᴍᴘᴏʀᴛᴀɴᴛ ᴢᴏɴᴇ, ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴇᴅɪᴛ
     MONGO_DB = "Exon"  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
@@ -69,10 +69,10 @@ class Config(object):
     DONATION_LINK = "t.me/AbishnoiMF"
     HELP_IMG = "https://telegra.ph/file/14d1f98500af1132e5460.jpg"
     START_IMG = "https://telegra.ph/file/14d1f98500af1132e5460.jpg"
-    UPDATES_CHANNEL = "Abishnoi_bots"
+    UPDATES_CHANNEL = "star_x_network"
     INFOPIC = False
     GENIUS_API_TOKEN = "28jwoKAkskaSjsnsksAjnwjUJwj"
-    SPAMWATCH_API = None
+    SPAMWATCH_API = "RxyUymWXR0cd9vD63D9JYS~RlRGpekPMC~IBSMHacCafhfeUbRtG~5EowuC2D_5H"
     REM_BG_API_KEY = None
     OPENWEATHERMAP_ID = None
     WALL_API = None
