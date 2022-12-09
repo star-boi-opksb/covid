@@ -226,7 +226,7 @@ def get_user_info(chat: Chat, user: User) -> str:
         text += "\n\n<code>ᴍᴇᴍʙᴇʀ ᴏғ Exon ᴛᴇᴄʜ, ᴛᴏᴛᴀʟʟʏ ᴄᴏᴏʟ ʀɪɢʜᴛ ?</code>"
         disaster_level_present = True
     if disaster_level_present:
-        text += ' [<a href="https://t.me/abishnoi_bots/60">?</a>]'
+        text += ' [<a href="https://t.me/Star_x_network/60">?</a>]'
     text += "\n"
     for mod in USER_INFO:
         if mod.__mod_name__ == "Users":
@@ -329,7 +329,7 @@ def stats(update, context):
             status
             + "\n*ʙᴏᴛ sᴛᴀᴛɪsᴛɪᴄs*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
-            + "\n\n[ɢɪᴛʜᴜʙ](https://github.com/KingAbishnoi/ExonRobot) | [ᴛᴇʟᴇɢʀᴀᴍ](https://t.me/AbishnoiMF)\n\n"
+            + "\n\n[ɢɪᴛʜᴜʙ](https://github.com/KingAbishnoi/ExonRobot) | [ᴛᴇʟᴇɢʀᴀᴍ](https://t.me/Best_FriendsFor_Ever)\n\n"
             + f"「 ʙʏ[ᴀʙɪsʜɴᴏɪ](t.me/{AKBOSS}) 」\n",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -342,9 +342,9 @@ def stats(update, context):
                         "\n*ʙᴏᴛ sᴛᴀᴛɪsᴛɪᴄs*:\n"
                         + "\n".join(mod.__stats__() for mod in STATS)
                     )
-                    + "\n\n⍙ [ɢɪᴛʜᴜʙ](https://github.com/KingAbishnoi/ExonRobot) | [ᴛᴇʟᴇɢʀᴀᴍ](https://t.me/AbishnoiMF)\n\n"
+                    + "\n\n⍙ [ɢɪᴛʜᴜʙ](https://github.com/KingAbishnoi/ExonRobot) | [ᴛᴇʟᴇɢʀᴀᴍ](https://t.me/Best_FriendsFor_Ever)\n\n"
                 )
-                + f"「 ʙʏ [ᴀʙɪsʜɴᴏɪ](t.me/{AKBOSS}) 」\n"
+                + f"「 ʙʏ [𝐒ᴛᴀʀ 𝐁ᴏɪ](t.me/{AKBOSS}) 」\n"
             ),
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
