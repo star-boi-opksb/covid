@@ -50,7 +50,7 @@ class Config(object):
     EVENT_LOGS = int(getenv("EVENT_LOGS", "-1001621682412"))
     DATABASE_URI = getenv(
         "DATABASE_URI",
-        "postgres://ftmhhlpp:vXFSn6lNyTwI_OOTbGSBbdsQI9hABC1f@ella.db.elephantsql.com/ftmhhlpp",
+        "postgres://zygsjawf:kzExgeliPA4GGwVWDlXySLXCDafJGxUZ@castor.db.elephantsql.com/zygsjawf",
     )  # elephantsql.com
     REDIS_URL = "redis://default:imP6xyfvlFsVpzFbciK3dIx9Vde05pav@redis-17127.c239.us-east-1-2.ec2.cloud.redislabs.com:17127/default"  # redis.os
     MONGO_DB_URL = getenv(
@@ -66,7 +66,7 @@ class Config(object):
     MONGO_DB = "Exon"  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
     ARQ_API_URL = "https://arq.hamker.in"  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
     ARQ_API_KEY = "TENRCY-KDKSK-MSMSM-OXQYYO-ARQ"
-    DONATION_LINK = "t.me/AbishnoiMF"
+    DONATION_LINK = "t.me/Best_FriendsFor_Ever"
     HELP_IMG = "https://telegra.ph/file/14d1f98500af1132e5460.jpg"
     START_IMG = "https://telegra.ph/file/14d1f98500af1132e5460.jpg"
     UPDATES_CHANNEL = "star_x_network"
@@ -90,7 +90,7 @@ class Config(object):
     ALLOW_EXCL = []
     ALLOW_CHATS = True
     CERT_PATH = []
-    SPAMWATCH_SUPPORT_CHAT = "AbishnoiMF"
+    SPAMWATCH_SUPPORT_CHAT = "Best_FriendsFor_Ever"
     BOT_API_URL = "https://api.telegram.org/bot"  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
     DRAGONS = get_user_list("elevated_users.json", "sudos")  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
     DEV_USERS = get_user_list("elevated_users.json", "devs")  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
