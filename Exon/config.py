@@ -55,7 +55,7 @@ class Config(object):
     REDIS_URL = "redis://default:imP6xyfvlFsVpzFbciK3dIx9Vde05pav@redis-17127.c239.us-east-1-2.ec2.cloud.redislabs.com:17127/default"  # redis.os
     MONGO_DB_URL = getenv(
         "MONGO_DB_URL",
-        "mongodb+srv://movies:7234049299@cluster0.mc1he3h.mongodb.net/?retryWrites=true&w=majority",
+        "mongodb+srv://DEVDA123:DEVDA123@cluster0.mdzgb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
     )
     TOKEN = getenv("TOKEN", "5889054634:AAGu_lt5U8XmHwZTvVutBhQ75B_16N2q5cY")
     OWNER_USERNAME = getenv("OWNER_USERNAME", "its_star_boi")
