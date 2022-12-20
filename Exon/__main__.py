@@ -116,9 +116,9 @@ PM_START_TEX = """
 """
 
 PM_START_TEXT = """
-*ʜᴇʟʟᴏ {} !*
-━━━━━━━ *sʜɪᴢᴜᴋᴀ* ━━━━━━━
-sʜɪᴢᴜᴋᴀ ʀᴏʙᴏᴛ ɪꜱ ᴀ 
+*ʜᴇʟʟᴏ {} !
+━━━━━━━ *ᴀǫᴜᴀ* ━━━━━━━
+ᴀǫᴜᴀ ʀᴏʙᴏᴛ ɪꜱ ᴀ 
 ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ 
 ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ
 ᴀɴᴅ ꜱᴇᴄᴜʀᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ
@@ -131,7 +131,7 @@ sʜɪᴢᴜᴋᴀ ʀᴏʙᴏᴛ ɪꜱ ᴀ
      ⍟  *ᴜᴘᴛɪᴍᴇ :* `{}` 
      ⍟  *ᴜsᴇʀs :* `{}`
      ⍟  *ᴄʜᴀᴛs :* `0{}`
-━━━━━━━ *sʜɪᴢᴜᴋᴀ* ━━━━━━━ 
+━━━━━━━ *ᴀǫᴜᴀ* ━━━━━━━ 
    
 """
 
@@ -156,7 +156,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-━━━━━━━sʜɪᴢᴜᴋᴀ━━━━━━━
+━━━━━━━ᴀǫᴜᴀ━━━━━━━
 ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ
 ɢᴇᴛ ᴜꜱᴀɢᴇ ᴏꜰ ꜱᴘᴇᴄɪꜰɪᴄꜱ ᴄᴏᴍᴍᴀɴᴅ
 ━━━━━━━━━━━━━━━━━
@@ -719,7 +719,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 5463205082 and DONATION_LINK:
+        if OWNER_ID != 1452219013 and DONATION_LINK:
             update.effective_message.reply_text(
                 f"ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ᴛᴏ the ᴘᴇʀsᴏɴ ᴄᴜʀʀᴇɴᴛʟʏ ʀᴜɴɴɪɴɢ ᴍᴇ [ʜᴇʀᴇ]({DONATION_LINK})",
                 parse_mode=ParseMode.MARKDOWN,
@@ -773,7 +773,7 @@ def main():
 ㅤ🥀 {dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ .....
 
 ━━━━━━━━━━━━━
-⍟ **ᴍʏ ᴏᴡɴᴇʀ :** [𝐒ᴛᴀʀ 𝐁ᴏɪ](https://t.me/{OWNER_USERNAME})
+⍟ **ᴍʏ ᴏᴡɴᴇʀ :** [⋆F ᴀ ɪ ᴢ ⋆](https://t.me/{OWNER_USERNAME})
 ⍟ **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
 ⍟ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tver}`
 ⍟ **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pver}`
