@@ -55,21 +55,21 @@ class Config(object):
     REDIS_URL = "redis://default:imP6xyfvlFsVpzFbciK3dIx9Vde05pav@redis-17127.c239.us-east-1-2.ec2.cloud.redislabs.com:17127/default"  # redis.os
     MONGO_DB_URL = getenv(
         "MONGO_DB_URL",
-        "mongodb+srv://DEVDA123:DEVDA123@cluster0.mdzgb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+        "mongodb+srv://NazMusic:NazMusic@cluster0.bu0ohwv.mongodb.net/?retryWrites=true&w=majority",
     )
     TOKEN = getenv("TOKEN", "5889054634:AAGu_lt5U8XmHwZTvVutBhQ75B_16N2q5cY")
-    OWNER_USERNAME = getenv("OWNER_USERNAME", "its_star_boi")
-    OWNER_ID = getenv("OWNER_ID", "5463205082")
-    SUPPORT_CHAT = getenv("SUPPORT_CHAT", "best_FriendsFor_Ever")
+    OWNER_USERNAME = getenv("OWNER_USERNAME", "YoungFaiz")
+    OWNER_ID = getenv("OWNER_ID", "5608390546")
+    SUPPORT_CHAT = getenv("SUPPORT_CHAT", "ayrabots")
 
     # ɴᴏᴛ ɪᴍᴘᴏʀᴛᴀɴᴛ ᴢᴏɴᴇ, ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴇᴅɪᴛ
     MONGO_DB = "Exon"  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
     ARQ_API_URL = "https://arq.hamker.in"  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
     ARQ_API_KEY = "XKDTLP-OZWXUU-YMMSSX-LOAOSQ-ARQ"
-    DONATION_LINK = "t.me/Best_FriendsFor_Ever"
-    HELP_IMG = "https://telegra.ph/file/14d1f98500af1132e5460.jpg"
-    START_IMG = "https://telegra.ph/file/14d1f98500af1132e5460.jpg"
-    UPDATES_CHANNEL = "star_x_network"
+    DONATION_LINK = "t.me/its_star_boi"
+    HELP_IMG = "https://telegra.ph/file/6eda47c03eaf8b8c26cc4.jpg"
+    START_IMG = "https://telegra.ph/file/804dbd96d120fb7ad7941.jpg"
+    UPDATES_CHANNEL = "Ayraupdates"
     INFOPIC = False
     GENIUS_API_TOKEN = "28jwoKAkskaSjsnsksAjnwjUJwj"
     SPAMWATCH_API = "RxyUymWXR0cd9vD63D9JYS~RlRGpekPMC~IBSMHacCafhfeUbRtG~5EowuC2D_5H"
@@ -90,7 +90,7 @@ class Config(object):
     ALLOW_EXCL = []
     ALLOW_CHATS = True
     CERT_PATH = []
-    SPAMWATCH_SUPPORT_CHAT = "Best_FriendsFor_Ever"
+    SPAMWATCH_SUPPORT_CHAT = "ayrabots"
     BOT_API_URL = "https://api.telegram.org/bot"  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
     DRAGONS = get_user_list("elevated_users.json", "sudos")  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
     DEV_USERS = get_user_list("elevated_users.json", "devs")  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
