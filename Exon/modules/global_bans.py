@@ -449,7 +449,7 @@ def check_and_ban(update, user_id, should_message=True):
                 f"<code>*ʙᴀɴs ᴛʜᴇᴍ ғʀᴏᴍ ʜᴇʀᴇ*</code>.\n"
                 f"<b>ᴀᴘᴘᴇᴀʟ ғᴏʀ ᴜɴʙᴀɴ</b>: {SPAMWATCH_SUPPORT_CHAT}\n"
                 f"<b>ᴜsᴇʀ ɪᴅ</b>: <code>{sw_ban.id}</code>\n"
-                f"<b>ʙᴀɴ ʀᴇᴀsᴏɴ</b>: <code>{html.escape(sw_ban.reason)}</code>\n @Best_FriendsFor_Ever",
+                f"<b>ʙᴀɴ ʀᴇᴀsᴏɴ</b>: <code>{html.escape(sw_ban.reason)}</code>\n @Ayrabots",
                 parse_mode=ParseMode.HTML,
             )
         return
