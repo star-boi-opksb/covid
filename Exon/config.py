@@ -46,7 +46,7 @@ class Config(object):
     LOGGER = True
     # ᴀᴅᴅ ʏᴏᴜʀ ᴠᴇʀs  (ᴍᴀɪɴ ᴠᴇʀs)
     API_ID = int(getenv("API_ID", "15599295"))
-    API_HASH = getenv("API_HASH", "4ce42998f7df4a64934294dadca28ae0")
+    API_HASH = getenv("API_HASH", "5889054634")
     EVENT_LOGS = int(getenv("EVENT_LOGS", "-1001621682412"))
     DATABASE_URI = getenv(
         "DATABASE_URI",
