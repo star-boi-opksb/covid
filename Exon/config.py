@@ -70,7 +70,7 @@ class Config(object):
     HELP_IMG = "https://telegra.ph/file/6eda47c03eaf8b8c26cc4.jpg"
     START_IMG = "https://telegra.ph/file/804dbd96d120fb7ad7941.jpg"
     UPDATES_CHANNEL = "Ayraupdates"
-    INFOPIC = "https://telegra.ph/file/804dbd96d120fb7ad7941.jpg"
+    INFOPIC = None
     GENIUS_API_TOKEN = "28jwoKAkskaSjsnsksAjnwjUJwj"
     SPAMWATCH_API = "RxyUymWXR0cd9vD63D9JYS~RlRGpekPMC~IBSMHacCafhfeUbRtG~5EowuC2D_5H"
     REM_BG_API_KEY = None
