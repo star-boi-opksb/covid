@@ -57,7 +57,7 @@ class Config(object):
         "MONGO_DB_URL",
         "mongodb+srv://NazMusic:NazMusic@cluster0.bu0ohwv.mongodb.net/?retryWrites=true&w=majority",
     )
-    TOKEN = getenv("TOKEN", "5965554241:AAGrlgiUT9H9YDQFZ6iNIldlqhwJOL7QxWI")
+    TOKEN = getenv("TOKEN", "5414076366:AAHM8PhG9SQBgwc6tAXS4SdXEkY4tdqThzI")
     OWNER_USERNAME = getenv("OWNER_USERNAME", "YoungFaiz")
     OWNER_ID = getenv("OWNER_ID", "5608390546")
     SUPPORT_CHAT = getenv("SUPPORT_CHAT", "ayrabots")
