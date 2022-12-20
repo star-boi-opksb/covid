@@ -46,7 +46,7 @@ class Config(object):
     LOGGER = True
     # ᴀᴅᴅ ʏᴏᴜʀ ᴠᴇʀs  (ᴍᴀɪɴ ᴠᴇʀs)
     API_ID = int(getenv("API_ID", "15599295"))
-    API_HASH = getenv("API_HASH", "5889054634")
+    API_HASH = getenv("API_HASH", "4ce42998f7df4a64934294dadca28ae0")
     EVENT_LOGS = int(getenv("EVENT_LOGS", "-1001621682412"))
     DATABASE_URI = getenv(
         "DATABASE_URI",
@@ -57,7 +57,7 @@ class Config(object):
         "MONGO_DB_URL",
         "mongodb+srv://NazMusic:NazMusic@cluster0.bu0ohwv.mongodb.net/?retryWrites=true&w=majority",
     )
-    TOKEN = getenv("TOKEN", "5889054634:AAGu_lt5U8XmHwZTvVutBhQ75B_16N2q5cY")
+    TOKEN = getenv("TOKEN", "5889054634:5414076366:AAHM8PhG9SQBgwc6tAXS4SdXEkY4tdqThzI")
     OWNER_USERNAME = getenv("OWNER_USERNAME", "YoungFaiz")
     OWNER_ID = getenv("OWNER_ID", "5608390546")
     SUPPORT_CHAT = getenv("SUPPORT_CHAT", "ayrabots")
